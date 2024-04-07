@@ -77,7 +77,7 @@ def copy_and_rename_to_jpg(input_path, output_folder):
 
 def main():
     try:
-        input_directory_path = r"C:\Users\RC\Pictures\fkble"
+        input_directory_path = r"C:\Users\RC\Pictures"
         output_directory_path = r"C:\Users\RC\Pictures\Bordered"
         all_files_info_list = get_all_files_info_in_directory(input_directory_path)
 
